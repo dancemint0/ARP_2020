@@ -26,6 +26,7 @@ for i = 1:length(Leistung_VKM)
     Leistung_VKM(i) = Leistung_thismotor;
 end
 
+
 P_ge = [Leistung_EM, Leistung_VKM];
 
 if length(find(isnan(P_ge))) >= 2
